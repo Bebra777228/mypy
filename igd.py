@@ -8,7 +8,7 @@ if not os.path.exists('/content/drive'):
     os.makedirs('/content/drive/MyDrive')
 
 import wget
-url = "https://huggingface.co/Rejekts/project/resolve/main/project-main.zip" -O '/content/project-main.zip' && unzip -n 'project-main.zip' -d /content/drive/MyDrive
+url = "https://huggingface.co/Rejekts/project/resolve/main/project-main.zip"
 file = wget.download(url,out="myFile.mp3")
 print(file)
 !cd '/content/drive/MyDrive/project-main' && python download_files.py && pip install -r 'requirements-safe.txt'
