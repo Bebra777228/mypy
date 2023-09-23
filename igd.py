@@ -9,5 +9,5 @@ if not os.path.exists('/content/drive'):
 
 import wget
 url = "https://huggingface.co/Rejekts/project/resolve/main/project-main.zip"
-file = wget.download(url,out="myFile.mp3")
+file = wget.download(url,out="project-main.zip")
 print(file)
