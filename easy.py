@@ -1,5 +1,5 @@
 import os, sys
-os.system ("
+os.system (
     import os, sys
     cd /content
     from google.colab import drive
@@ -17,4 +17,4 @@ os.system ("
     mkdir -p /content/dataset
     clear_output()
     Button(description='\u2714 Готово', button_style='success')
-            ")
+            )
