@@ -1,6 +1,5 @@
 import os, sys
 os.system (
-    import os, sys
     cd /content
     from google.colab import drive
     drive.mount('/content/drive')
