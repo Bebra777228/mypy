@@ -1,6 +1,4 @@
 import os, sys
-
-while len(os.listdir(dataset_folder)) < 1:
     input("Your dataset folder is empty.")
 os.system("mkdir -p ./logs/{model_name}")
 with open(f'./logs/{model_name}/preprocess.log','w') as f:
